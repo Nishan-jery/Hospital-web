@@ -1,0 +1,55 @@
+.Introduction-container{
+    display: flex;
+    margin-top: 20px;
+}
+.right-container{
+    height: 500px;
+    width: 60%;
+    background-color: #E6F2FF;
+    display: flex;
+}
+.right-content{
+    margin-top: 30px;
+}
+.left-contaner{
+    height: 500px;
+    width: 40%;
+    background-color: #131C53;
+}
+.main-title{
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 120px;
+}
+.blue-letter{
+    color: #0577CF;
+    font-weight: 500;
+}
+.sub-title{
+    margin-left: 120px;
+    width: 50%;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.btn-savoir{
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #0577CF;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-savoir i{
+    margin-left: 10px;
+}
+.doctor-main{
+    height: 300px;
+    width: 350px;
+    margin-top: 80px;
+    border-radius: 20px;
+}

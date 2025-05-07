@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+.navbar{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right-items{
+    display: flex;
+    gap: 500px;
+}
+.left-items p{
+    font-family: "Pattaya", sans-serif;
+    color: #0577CF;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.right-items ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.right-items li:hover{
+    color: #0577CF;
+    cursor: pointer;
+}
+.btn-connect{
+    height: 45px;
+    width: 180px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-connect i{
+    margin-left: 10px;
+}
